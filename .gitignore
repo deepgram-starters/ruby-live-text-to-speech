@@ -1,0 +1,37 @@
+# Ruby
+vendor/
+.bundle/
+*.gem
+Gemfile.lock
+
+# Frontend (submodule)
+frontend/node_modules/
+frontend/dist/
+
+# Lock files (Ruby uses Gemfile, frontend uses pnpm)
+frontend/package-lock.json
+frontend/yarn.lock
+
+# Environment
+.env
+.env.local
+*.local
+
+# Deepgram local workspace
+.deepgram/
+
+# Logs
+*.log
+
+# Editor/OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+.cache/
