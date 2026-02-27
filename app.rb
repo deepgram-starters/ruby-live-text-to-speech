@@ -236,9 +236,15 @@ class WebSocketProxy
         puts "Deepgram binary message ##{deepgram_message_count}"
       end
 
-      # Forward to client
+      # Forward to client — ensure binary audio is sent as binary frames
       if client_ws
-        client_ws.send(data)
+        if data.is_a?(Array)
+          client_ws.send(data)
+        elsif data.is_a?(String) && data.encoding == Encoding::ASCII_8BIT
+          client_ws.send(data.bytes)
+        else
+          client_ws.send(data)
+        end
       end
     end
 
