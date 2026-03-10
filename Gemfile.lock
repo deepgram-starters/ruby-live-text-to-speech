@@ -17,7 +17,7 @@ GEM
     puma (6.5.0)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.14)
+    rack (3.1.20)
     rack-protection (4.1.1)
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
@@ -55,7 +55,7 @@ DEPENDENCIES
   faye-websocket (= 0.11.3)
   jwt (= 2.10.1)
   puma (= 6.5.0)
-  rack (= 3.1.14)
+  rack (= 3.1.20)
   rackup (= 2.2.1)
   sinatra (= 4.1.1)
   sinatra-cross_origin (= 0.4.0)
@@ -73,7 +73,7 @@ CHECKSUMS
   nio4r (2.7.5) sha256=6c90168e48fb5f8e768419c93abb94ba2b892a1d0602cb06eef16d8b7df1dca1
   puma (6.5.0) sha256=94d1b75cab7f356d52e4f1b17b9040a090889b341dbeee6ee3703f441dc189f2
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
-  rack (3.1.14) sha256=84613c2a8df193bb6711d9c14ecc6d5a65a7cb4312379a65e793562608944b44
+  rack (3.1.20) sha256=de256e32c2be9df9959a3e4e1e4feade81804362a91fa5807f571f70083ef84e
   rack-protection (4.1.1) sha256=51a254a5d574a7f0ca4f0672025ce2a5ef7c8c3bd09c431349d683e825d7d16a
   rack-session (2.1.1) sha256=0b6dc07dea7e4b583f58a48e8b806d4c9f1c6c9214ebc202ec94562cbea2e4e9
   rackup (2.2.1) sha256=f737191fd5c5b348b7f0a4412a3b86383f88c43e13b8217b63d4c8d90b9e798d
